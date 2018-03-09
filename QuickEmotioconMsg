@@ -1,0 +1,51 @@
+package finalPOO;
+
+public class QuinckEmoticonMgg extends Mensagem {
+	public QuinckEmoticonMgg() {
+		super(remetente, destinatario);
+		// TODO Auto-generated constructor stub
+	}
+	String SMILE_FACE = ":D";
+	String SAD_FACE = ":/";
+	String CRYING_FACE = "T-T";
+	String SUEPRISE_FACE = ":O";
+	String HEART = "<3";
+	public String getSMILE_FACE() {
+		return SMILE_FACE;
+	}
+	public void setSMILE_FACE(String sMILE_FACE) {
+		SMILE_FACE = sMILE_FACE;
+	}
+	public String getSAD_FACE() {
+		return SAD_FACE;
+	}
+	public void setSAD_FACE(String sAD_FACE) {
+		SAD_FACE = sAD_FACE;
+	}
+	public String getCRYING_FACE() {
+		return CRYING_FACE;
+	}
+	public void setCRYING_FACE(String cRYING_FACE) {
+		CRYING_FACE = cRYING_FACE;
+	}
+	public String getSUEPRISE_FACE() {
+		return SUEPRISE_FACE;
+	}
+	public void setSUEPRISE_FACE(String sUEPRISE_FACE) {
+		SUEPRISE_FACE = sUEPRISE_FACE;
+	}
+	public String getHEART() {
+		return HEART;
+	}
+	public void setHEART(String hEART) {
+		HEART = hEART;
+	}
+	public void QuinckEmoticonMsg(String destinatario, String remetente, int opc) {
+}   
+	private String selecionaropc(String opcao){
+		return opcao;
+		
+	}
+		
+	}
+	
