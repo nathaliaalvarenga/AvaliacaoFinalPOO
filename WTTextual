@@ -1,0 +1,100 @@
+package finalPOO;
+
+import javax.swing.SingleSelectionModel;
+
+public class WTTextual extends Mensagem {
+	public WTTextual(String remetente, WTTextual destinatario) {
+		super(remetente, destinatario);
+		// TODO Auto-generated constructor stub
+	}
+	private static final String get = null;
+	private String nickname;
+	private boolean estaOnline;
+	private String msgAtual;
+	public String getNickname() {
+		return nickname;
+	}
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
+	}
+	public boolean isEstaOnline() {
+		return estaOnline;
+	}
+	public void setEstaOnline(boolean estaOnline) {
+		this.estaOnline = estaOnline;
+	}
+	public String getMsgAtual() {
+		return msgAtual;
+	}
+	public void setMsgAtual(String msgAtual) {
+		this.msgAtual = msgAtual;
+	}
+  // public WTTextual(String dono ,String nickname){
+	   
+   
+   public void enviarMgs(WTTextual dest, boolean opc){
+	   if(dest = conectar()){
+		   void LongTextMsg1(int opc){
+			   nickname=getRemetente();
+			   ReceberMsg();
+			  
+		  } 
+   private void ReceberMsg() {
+			// TODO Auto-generated method stub
+			this.nickname= nickname;
+			return;
+			
+		}
+public void enviarMgs(WTTextual dest, String txt){
+	try{ 
+	} catch (Exception WTDisconnectedExpeption) {
+		// TODO: handle exception
+	}
+	       if(dest = conectar()){
+		   void LongTextMsg(int opc){
+			   nickname=getRemetente();
+			   ReceberMsg();
+		System.out.println(" Usuario Offline. Tente novamente mais tarde");	  
+   }
+    public void conectar(){
+    	estaOnline = true;
+	}
+    public void desconectar(){
+    	estaOnline = false;
+    }
+    public String verStatus(){
+		if (estaOnline()==true){
+			return "<nickname> está online";}
+		
+		else {
+				(estaOnline()==false){
+			return "<nickname> está offline";
+		}
+		}	
+		}
+    	
+    
+    public boolean estaOnline(){
+		return estaOnline;	
+     }
+    @Override
+    void selecionarOpc(){
+    	case 1; 
+    	System.out.println("Sad Face");
+    	case 2; 
+    	System.out.println("Crying Face");
+    	case 3;
+    	System.out.println("Surprise Face");
+    	case 4;
+    	System.out.println("Heart");
+    	case 0;
+    	System.out.println("Smile face");
+
+
+    			
+    }
+    
+//    private <Mensagem> void receberMgs(Mensagem m){
+    	
+ //   }
+}
