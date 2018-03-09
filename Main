@@ -1,0 +1,21 @@
+package finalPOO;
+
+public class Main {
+
+	public static void Main(String[] args) {
+		// TODO Auto-generated method stub
+   QuinckEmoticonMgg q1 = new QuinckEmoticonMgg(){
+	  q1.setselecionaropc() = "-----";
+	  
+	  q1.verStatus();
+	  q1.desconectar();
+	  q1.conectar();
+   
+   QuinckEmoticonMgg q2 = new QuinckEmoticonMgg(){
+	   q2.set.selecionaropc()= ;
+	      q2.verStatus();
+		  q2.desconectar();
+		  q2.conectar();
+    
+
+}
