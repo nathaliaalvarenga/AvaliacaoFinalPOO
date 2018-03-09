@@ -1,0 +1,8 @@
+package finalPOO;
+
+public class LongTextMsg extends Mensagem{
+ 
+	 public LongTextMsg(String remetente, String destinatario,String Texto){
+		 
+	 }
+}
